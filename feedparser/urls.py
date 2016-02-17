@@ -7,7 +7,7 @@ try:
 except ImportError:
     import urlparse as urlparse
 
-from .html import _BaseHTMLProcessor
+from .html_ import _BaseHTMLProcessor
 
 # If you want feedparser to allow all URL schemes, set this to ()
 # List culled from Python's urlparse documentation at:

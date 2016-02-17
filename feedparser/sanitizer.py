@@ -2,7 +2,7 @@ from __future__ import absolute_import, unicode_literals
 
 import re
 
-from .html import _BaseHTMLProcessor
+from .html_ import _BaseHTMLProcessor
 from .sgml import _SGML_AVAILABLE
 from .urls import _makeSafeAbsoluteURI
 

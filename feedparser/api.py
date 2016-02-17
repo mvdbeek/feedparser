@@ -50,7 +50,7 @@ except ImportError:
 from .datetimes import registerDateHandler, _parse_date
 from .encodings import convert_to_utf8
 from .exceptions import *
-from .html import _BaseHTMLProcessor
+from .html_ import _BaseHTMLProcessor
 from . import http
 from . import mixin
 from .mixin import _FeedParserMixin

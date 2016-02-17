@@ -2,8 +2,6 @@ from setuptools import setup
 import sys
 
 extra = {}
-if sys.version_info >= (3, ):
-    extra['install_requires'] = ['sgmllib3k']
 
 setup(
     name = 'feedparser',

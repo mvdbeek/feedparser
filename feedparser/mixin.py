@@ -47,7 +47,7 @@ try:
 except ImportError:
     from htmlentitydefs import name2codepoint, entitydefs
 
-from .html import _cp1252
+from .html_ import _cp1252
 from .namespaces import _base, cc, dc, georss, itunes, mediarss, psc
 from .sanitizer import _sanitizeHTML, _HTMLSanitizer
 from .util import FeedParserDict
